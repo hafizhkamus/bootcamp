@@ -2,7 +2,7 @@ package com.java.belajar.operator;
 
 
 
-public class KonfersiTipeData{
+public class KonversiTipeData{
 
     public static void main(String[] args) {
         
