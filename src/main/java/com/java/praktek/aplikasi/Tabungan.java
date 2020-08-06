@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 public class Tabungan{
 
     private Double sukuBunga;
-    private BigDecimal saldo;
+    private Integer saldo;
     private BigDecimal akual;
     private String kriteriaProduk;
 
@@ -17,11 +17,11 @@ public class Tabungan{
         this.sukuBunga = sukuBunga;
     }
 
-    public BigDecimal getSaldo(){
+    public Integer getSaldo(){
         return saldo;
     }
 
-    public void setSaldo(BigDecimal saldo){
+    public void setSaldo(Integer saldo){
         this.saldo = saldo;
     }
 
@@ -30,7 +30,7 @@ public class Tabungan{
     }
 
     public void setAkual(BigDecimal akual){
-        thi.akual = akual;
+        this.akual = akual;
     }
 
     public String getKriteriaProduk(){
@@ -38,7 +38,7 @@ public class Tabungan{
     }
 
     public void setKriteriaProduk(String kriteriaProduk){
-        this,kriteriaProduk = kriteriaProduk;
+        this.kriteriaProduk = kriteriaProduk;
     }
 
 }

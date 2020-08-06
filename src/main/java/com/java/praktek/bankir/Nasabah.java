@@ -1,12 +1,11 @@
 package com.java.praktek.bankir;
 
-import java.math.BigDecimal;
 
 public class Nasabah{
 
     private String nomorIdentitas;
     private boolean active;
-    private BigDecimal saldo;
+    private Integer saldo;
 
     public String getNomorIdentitas(){
         return nomorIdentitas;
@@ -24,11 +23,11 @@ public class Nasabah{
         this.active = active;
     }
 
-    public BigDecimal getSaldo(){
+    public Integer getSaldo(){
         return saldo;
     }
 
-    public void setSaldo(BigDecimal saldo){
+    public void setSaldo(Integer saldo){
         this.saldo = saldo;
     }
 }

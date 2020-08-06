@@ -33,4 +33,12 @@ public class NasabahBadanUsaha extends Nasabah{
         this.alamatKantor = alamatKantor;
     }
 
+    public Tabungan getTabungan(){
+        return tabungan;
+    }
+
+    public void setTabungan(Tabungan tabungan){
+        this.tabungan = tabungan;
+    }
+
 }
